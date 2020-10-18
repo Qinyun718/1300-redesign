@@ -2,13 +2,242 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Redesign - Website</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
     <!-- TODO: put your HTML code here! -->
+    <!-- Back to top button -->
+
+    <div class="container-fluid">
+        <div class="tm-site-header tm-mb-1">
+            <div class="tm-site-name-container tm-bg-color-1">
+                <h1 class="tm-text-white">Redesign - Website</h1>
+            </div>
+        </div>
+
+
+        <div class="tm-nav-container tm-bg-color-8">
+            <ul>
+                <li class="tm-nav-item current">
+                    <a href="#about" class="tm-nav-link">
+                        <span class="tm-mb-1">.01</span>
+                        <span>Overview</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#services" class="tm-nav-link">
+                        <span class="tm-mb-1">.02</span>
+                        <span>Visual Design</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#gallery" class="tm-nav-link">
+                        <span class="tm-mb-1">.03</span>
+                        <span>Redesign</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <section class="tm-mb-1" id="about">
+            <div class="tm-row tm-about-row">
+                <div class="tm-section-1-l">
+                    <img src="initial.png" alt="Description" class="tm-img-responsive">
+                    <img src="initial2.png" alt="Description" class="tm-img-responsive">
+                </div>
+                <div class="tm-section-1-r tm-bg-color-8">
+                    <h2 class="tm-mb-2 tm-text-purple">.01 Overview of the initial page</h2>
+                    <p class = "tm-text-normal"><b>Link for the initial website: </b><a href="https://www.laosichuan.com/">laosichuan.com</a></p>
+                    <p class = "tm-text-normal"><b>Problems of the website:</b> 
+                        <ul class = "tm-text-normal">
+                            <li>
+                                <b>Usability: </b> Restaurants are exhibited very closely with each other without a clear boundary to separate them.
+                            </li>
+                            <li>
+                                <b>Usability: </b>The menu section is not well organized for audience to read and take actions.
+                            </li>
+                            <li>
+                                <b>Learnability: </b>The navigation bar is too small for audiences to read and understand.
+                            </li>
+                            <li>
+                                <b>Memorability: </b>It is hard to distinguish between different restaurant listed on the website
+                            </li>
+                            <li>
+                                <b>Memorability: </b>There is some duplicate information listed in several sections, leading unnecessary inefficiency for audiences to filtering important information. 
+                            </li>
+                        </ul>
+                    </p>
+                    <p class = "tm-text-normal"><b>Accessibility:</b></p>
+                    <p class = "tm-text-normal">
+                        WAVE report points out several errors with the current page. The main errors are missing alternative text and low contrast. Besides, it figures out some redundant link describing the address of each restaurant.  
+                        No results available on screen-reader
+
+                    </p>
+                    
+                </div>
+            </div>
+        </section>
+
+        
+        <div class="tm-nav-container tm-bg-color-8">
+            <ul>
+                <li class="tm-nav-item">
+                    <a href="#about" class="tm-nav-link">
+                        <span class="tm-mb-1">.01</span>
+                        <span>Overview</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item current">
+                    <a href="#services" class="tm-nav-link">
+                        <span class="tm-mb-1">.02</span>
+                        <span>Visual Design</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#gallery" class="tm-nav-link">
+                        <span class="tm-mb-1">.03</span>
+                        <span>Redesign</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <section class="tm-mb-1" id="services">
+        	<div class="tm-site-name-container tm-bg-color-1">
+        		<p class="tm-text-white text-center">Low-fidelity Wireframing</p>
+        		
+        	</div>
+
+            <div class="tm-section-2-l flexbox">
+
+                <div class="tm-bg-color-7 tm-em-box col">
+                    <p class="tm-text-purple"><STRONG>Desktop</STRONG></p>
+                    <img src="lofi/desktop.png" alt="Description" class="tm-img-responsive">
+                </div>
+
+                <div class="tm-bg-color-7 tm-em-box col">
+                    <p class="tm-text-purple"><STRONG>Tablet</STRONG></p>
+                    <img src="lofi/ipad.png" alt="Description" class="tm-img-responsive">
+                </div>
+
+                <div class="tm-bg-color-7 tm-em-box col">
+                    <p class="tm-text-purple"><STRONG>Mobile</STRONG></p>
+                    <img src="lofi/iphone.png" alt="Description" class="tm-img-responsive">
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="tm-mb-1 tm-interview" id="services">
+        	<div class="tm-site-name-container tm-bg-color-1">
+        		<p class="tm-text-white text-center">High-Fidelity Prototyping</p>
+        		
+        	</div>
+        	<div class="tm-section-2-l flexbox">
+
+                <div class="tm-bg-color-7 tm-em-box col">
+                    <p class="tm-text-purple"><STRONG>Desktop</STRONG></p>
+                    <img src="hifi/desktop.png" alt="Description" class="tm-img-responsive">
+                </div>
+
+                <div class="tm-bg-color-7 tm-em-box col">
+                    <p class="tm-text-purple"><STRONG>Tablet</STRONG></p>
+                    <img src="hifi/ipad.png" alt="Description" class="tm-img-responsive">
+                </div>
+
+                <div class="tm-bg-color-7 tm-em-box col">
+                    <p class="tm-text-purple"><STRONG>Mobile</STRONG></p>
+                    <img src="hifi/iphone.png" alt="Description" class="tm-img-responsive">
+                </div>
+            </div>
+            <div class="tm-text-normal">
+                <h2>Responsiveness Summary</h2>
+                The responsiveness is achieved by applying “flex” function and specifying changes with “@media” when the screen size becomes smaller. For screen size that is consistent with tablet, the map and the general information becomes vertically consistent instead of the horizontal consistency in the desktop screen mode. In terms of mobile screen size, the number of branches listed in one line is reduced to one. Besides, the font-size increased to 1.2 times for tablet screen and 1.5 times for mobile screen when compared to the desktop screen. 
+            </div>
+        </section>
+
+        <section class="tm-mb-1 tm-interview" id="services">
+            <div class="tm-site-name-container tm-bg-color-1">
+                <p class="tm-text-white text-center">Visual Design Style Guide </p>
+                
+            </div>
+            <div class="tm-section-2-l flexbox">
+                <img src="visual.png" alt="Description" class="tm-img-responsive">
+                
+            </div>
+        </section>
+
+
+        <div class="tm-nav-container tm-bg-color-8">
+            <ul>
+                <li class="tm-nav-item">
+                    <a href="#about" class="tm-nav-link">
+                        <span class="tm-mb-1">.01</span>
+                        <span>Overview</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#services" class="tm-nav-link">
+                        <span class="tm-mb-1">.02</span>
+                        <span>Visual Design</span>
+                    </a>
+                </li>
+                <li class="tm-nav-item current">
+                    <a href="#gallery" class="tm-nav-link">
+                        <span class="tm-mb-1">.03</span>
+                        <span>Redesign</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+
+        <section class="tm-mb-1" id="gallery">
+            <div class="tm-row tm-about-row">
+                <div class="tm-section-1-l">
+                    <img src="redesign1.png" alt="Description" class="tm-img-responsive">
+                    <img src="redesign2.png" alt="Description" class="tm-img-responsive">
+                </div>
+                <div class="tm-section-1-r tm-bg-color-8">
+                    <h2 class="tm-mb-2 tm-text-purple">.03 Responsive Redesign</h2>
+                    <p class = "tm-text-normal"><b>Link for the redesigned website: </b><a href="https://stormy-eyrie-82844.herokuapp.com">Click Here!</a></p>
+                    <p class = "tm-text-normal"><b>Observations:</b> 
+                        <ul class = "tm-text-normal">
+                            <li>
+                                Errors are reduced a lot.
+                            </li>
+                            <li>
+                                The selection of colors on the redesigned website still causes the low contrast concerns. 
+                            </li>
+                            <li>
+                                All images the redesigned website used satisfy the requirement of "alt". 
+                            </li>
+                            <li>
+                                Since the redesigned website is not interactive with other external pages, there are some alerts showing up about "Broken pages". 
+                            </li>
+                        
+                        </ul>
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+
+        
   </body>
 </html>
